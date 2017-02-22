@@ -1,0 +1,69 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "eastus"
+        },
+        "virtualMachineName": {
+            "value": "AW-DC-FG"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_D1_v2"
+        },
+        "adminUsername": {
+            "value": "fgonzalez"
+        },
+        "storageAccountName": {
+            "value": "fgonzalez022117"
+        },
+        "virtualNetworkName": {
+            "value": "fgonzalez_FG-VNET"
+        },
+        "networkInterfaceName": {
+            "value": "aw-dc-fg684"
+        },
+        "networkSecurityGroupName": {
+            "value": "AW-DC-FG-nsg"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "availabilitySetName": {
+            "value": "FG-DC_AS"
+        },
+        "availabilitySetPlatformFaultDomainCount": {
+            "value": "2"
+        },
+        "availabilitySetPlatformUpdateDomainCount": {
+            "value": "5"
+        },
+        "storageAccountType": {
+            "value": "Standard_LRS"
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "fgonzalezfgdiag022117"
+        },
+        "diagnosticsStorageAccountType": {
+            "value": "Standard_LRS"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "Microsoft.Storage/storageAccounts/fgonzalezfgdiag022117"
+        },
+        "addressPrefix": {
+            "value": "192.168.0.0/24"
+        },
+        "subnetName": {
+            "value": "Subnet1"
+        },
+        "subnetPrefix": {
+            "value": "192.168.0.0/24"
+        },
+        "publicIpAddressName": {
+            "value": "AW-DC-FG-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        }
+    }
+}
